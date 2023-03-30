@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>50+</title>
+  <style>
+    img {
+        width: 30%;
+      }
+  </style>
+	<link href="{{ url_for('static', filename='ranking_output.css') }}" rel="stylesheet" />
+</head>
+<body>
+  <p>Your Score: {{ score }}</p>
+  <h1>Your Percentile Ranking: {{ percentile_rank }}</h1>
+  <a href="https://drive.google.com/drive/folders/1gC6GQLgcuoHzwDXtEGzTwvzCz0YsYuwg">Additional Practice</a>
+	<img src="https://cdn-icons-png.flaticon.com/512/8408/8408237.png" alt="Good Effort">
+</body>
+</html>
